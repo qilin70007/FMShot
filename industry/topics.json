@@ -1,0 +1,279 @@
+{
+  "groups": [
+    {
+      "key": "company",
+      "name": "厂商与机构",
+      "blurb": "FMS 厂商、飞机制造商、监管与标准机构"
+    },
+    {
+      "key": "field",
+      "name": "技术方向",
+      "blurb": "导航、引导、数据链、数据库与架构"
+    },
+    {
+      "key": "genre",
+      "name": "内容形态",
+      "blurb": "适航、安全事件、研究与工程实践"
+    }
+  ],
+  "topics": [
+    {
+      "slug": "honeywell",
+      "name": "Honeywell",
+      "group": "company",
+      "entityId": "honeywell",
+      "definition": "追踪Honeywell公开发布的 FMS、航电、导航、适航或安全相关进展。"
+    },
+    {
+      "slug": "thales",
+      "name": "Thales",
+      "group": "company",
+      "entityId": "thales",
+      "definition": "追踪Thales公开发布的 FMS、航电、导航、适航或安全相关进展。"
+    },
+    {
+      "slug": "collins",
+      "name": "Collins Aerospace",
+      "group": "company",
+      "entityId": "collins",
+      "definition": "追踪Collins Aerospace公开发布的 FMS、航电、导航、适航或安全相关进展。"
+    },
+    {
+      "slug": "garmin",
+      "name": "Garmin",
+      "group": "company",
+      "entityId": "garmin",
+      "definition": "追踪Garmin公开发布的 FMS、航电、导航、适航或安全相关进展。"
+    },
+    {
+      "slug": "universal-avionics",
+      "name": "Universal Avionics",
+      "group": "company",
+      "entityId": "universal-avionics",
+      "definition": "追踪Universal Avionics公开发布的 FMS、航电、导航、适航或安全相关进展。"
+    },
+    {
+      "slug": "airbus",
+      "name": "Airbus",
+      "group": "company",
+      "entityId": "airbus",
+      "definition": "追踪Airbus公开发布的 FMS、航电、导航、适航或安全相关进展。"
+    },
+    {
+      "slug": "boeing",
+      "name": "Boeing",
+      "group": "company",
+      "entityId": "boeing",
+      "definition": "追踪Boeing公开发布的 FMS、航电、导航、适航或安全相关进展。"
+    },
+    {
+      "slug": "comac",
+      "name": "中国商飞",
+      "group": "company",
+      "entityId": "comac",
+      "definition": "追踪中国商飞公开发布的 FMS、航电、导航、适航或安全相关进展。"
+    },
+    {
+      "slug": "jeppesen",
+      "name": "Jeppesen",
+      "group": "company",
+      "entityId": "jeppesen",
+      "definition": "追踪Jeppesen公开发布的 FMS、航电、导航、适航或安全相关进展。"
+    },
+    {
+      "slug": "lufthansa-systems",
+      "name": "Lufthansa Systems",
+      "group": "company",
+      "entityId": "lufthansa-systems",
+      "definition": "追踪Lufthansa Systems公开发布的 FMS、航电、导航、适航或安全相关进展。"
+    },
+    {
+      "slug": "faa",
+      "name": "FAA",
+      "group": "company",
+      "entityId": "faa",
+      "definition": "追踪FAA公开发布的 FMS、航电、导航、适航或安全相关进展。"
+    },
+    {
+      "slug": "easa",
+      "name": "EASA",
+      "group": "company",
+      "entityId": "easa",
+      "definition": "追踪EASA公开发布的 FMS、航电、导航、适航或安全相关进展。"
+    },
+    {
+      "slug": "caac",
+      "name": "中国民航局",
+      "group": "company",
+      "entityId": "caac",
+      "definition": "追踪中国民航局公开发布的 FMS、航电、导航、适航或安全相关进展。"
+    },
+    {
+      "slug": "eurocontrol",
+      "name": "EUROCONTROL",
+      "group": "company",
+      "entityId": "eurocontrol",
+      "definition": "追踪EUROCONTROL公开发布的 FMS、航电、导航、适航或安全相关进展。"
+    },
+    {
+      "slug": "rtca",
+      "name": "RTCA",
+      "group": "company",
+      "entityId": "rtca",
+      "definition": "追踪RTCA公开发布的 FMS、航电、导航、适航或安全相关进展。"
+    },
+    {
+      "slug": "eurocae",
+      "name": "EUROCAE",
+      "group": "company",
+      "entityId": "eurocae",
+      "definition": "追踪EUROCAE公开发布的 FMS、航电、导航、适航或安全相关进展。"
+    },
+    {
+      "slug": "ntsb",
+      "name": "NTSB",
+      "group": "company",
+      "entityId": "ntsb",
+      "definition": "追踪NTSB公开发布的 FMS、航电、导航、适航或安全相关进展。"
+    },
+    {
+      "slug": "icao",
+      "name": "ICAO",
+      "group": "company",
+      "entityId": "icao",
+      "definition": "追踪ICAO公开发布的 FMS、航电、导航、适航或安全相关进展。"
+    },
+    {
+      "slug": "fms",
+      "name": "FMS 系统",
+      "group": "field",
+      "tags": [
+        "FMS"
+      ],
+      "definition": "飞行管理系统相关动态。"
+    },
+    {
+      "slug": "navigation",
+      "name": "导航与性能",
+      "group": "field",
+      "tags": [
+        "GNSS/BDS",
+        "DME/IRS",
+        "RNP/RNAV",
+        "LNAV/VNAV",
+        "性能/轨迹优化"
+      ],
+      "definition": "持续追踪导航与性能相关的公开信息，保留原始证据与适用范围。"
+    },
+    {
+      "slug": "rnp-ar",
+      "name": "RNP AR",
+      "group": "field",
+      "tags": [
+        "RNP AR"
+      ],
+      "definition": "持续追踪RNP AR相关的公开信息，保留原始证据与适用范围。"
+    },
+    {
+      "slug": "lpv",
+      "name": "LP/LPV",
+      "group": "field",
+      "tags": [
+        "LP/LPV"
+      ],
+      "definition": "持续追踪LP/LPV相关的公开信息，保留原始证据与适用范围。"
+    },
+    {
+      "slug": "gnss-interference",
+      "name": "GNSS 干扰",
+      "group": "field",
+      "tags": [
+        "GNSS干扰"
+      ],
+      "definition": "持续追踪GNSS 干扰相关的公开信息，保留原始证据与适用范围。"
+    },
+    {
+      "slug": "datalink",
+      "name": "飞管数据链与互联",
+      "group": "field",
+      "tags": [
+        "ACARS/AOC",
+        "CPDLC/ADS-C",
+        "FANS/ATN",
+        "EFB互联"
+      ],
+      "definition": "持续追踪飞管数据链与互联相关的公开信息，保留原始证据与适用范围。"
+    },
+    {
+      "slug": "databases",
+      "name": "数据库与场面",
+      "group": "field",
+      "tags": [
+        "导航数据库",
+        "机场地图",
+        "场面导航",
+        "DO-200/DO-201"
+      ],
+      "definition": "持续追踪数据库与场面相关的公开信息，保留原始证据与适用范围。"
+    },
+    {
+      "slug": "architecture",
+      "name": "架构与设计保证",
+      "group": "field",
+      "tags": [
+        "IMA/ARINC653",
+        "系统冗余",
+        "DO-178/DO-254",
+        "ARP4754/ARP4761",
+        "HMI/触控"
+      ],
+      "definition": "持续追踪架构与设计保证相关的公开信息，保留原始证据与适用范围。"
+    },
+    {
+      "slug": "certification",
+      "name": "适航与标准",
+      "group": "genre",
+      "tags": [
+        "适航/标准"
+      ],
+      "definition": "持续追踪适航与标准相关的公开信息，保留原始证据与适用范围。"
+    },
+    {
+      "slug": "safety",
+      "name": "问题与安全事件",
+      "group": "genre",
+      "tags": [
+        "安全事件"
+      ],
+      "definition": "持续追踪问题与安全事件相关的公开信息，保留原始证据与适用范围。"
+    },
+    {
+      "slug": "research",
+      "name": "技术研究",
+      "group": "genre",
+      "tags": [
+        "论文/研究"
+      ],
+      "definition": "持续追踪技术研究相关的公开信息，保留原始证据与适用范围。"
+    },
+    {
+      "slug": "engineering",
+      "name": "工程实践",
+      "group": "genre",
+      "tags": [
+        "教程/实践",
+        "评测/验证"
+      ],
+      "definition": "持续追踪工程实践相关的公开信息，保留原始证据与适用范围。"
+    },
+    {
+      "slug": "product-releases",
+      "name": "产品更新",
+      "group": "genre",
+      "tags": [
+        "产品更新"
+      ],
+      "definition": "FMS 与综合航电产品和软件版本的发布与更新。"
+    }
+  ]
+}

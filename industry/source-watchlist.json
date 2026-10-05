@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-10-05",
+  "note": "以下是重点监视清单，不是已启用采集源；不把反爬页面、主页重定向或空结果当成采集成功。通过后台试抓并核验日期/正文后再启用。",
+  "sources": [
+    {
+      "name": "Honeywell Aerospace 产品与技术",
+      "url": "https://www.honeywellaerospace.com/us/en/company/newsroom",
+      "status": "需配置有效新闻列表；当前主页含大量外部媒体卡片",
+      "entityId": "honeywell"
+    },
+    {
+      "name": "Thales",
+      "url": "https://www.thalesgroup.com/en/news-centre",
+      "status": "返回脚本挑战页；需要获准接口或外部推送",
+      "entityId": "thales"
+    },
+    {
+      "name": "Collins Aerospace",
+      "url": "https://www.collinsaerospace.com/news",
+      "status": "读取受限；需要获准订阅或外部推送",
+      "entityId": "collins"
+    },
+    {
+      "name": "Garmin Aviation",
+      "url": "https://www.garmin.com/en-US/newsroom/",
+      "status": "读取受限；需要获准订阅或外部推送",
+      "entityId": "garmin"
+    },
+    {
+      "name": "Airbus",
+      "url": "https://www.airbus.com/en/newsroom/press-releases",
+      "status": "列表可读；日期/详情选择器尚待适配",
+      "entityId": "airbus"
+    },
+    {
+      "name": "CAAC",
+      "url": "https://www.caac.gov.cn/",
+      "status": "需选择适航/运行相关栏目并核验解析",
+      "entityId": "caac"
+    },
+    {
+      "name": "EASA AD/SIB",
+      "url": "https://ad.easa.europa.eu/",
+      "status": "入口可读；需接入专用查询与发布日期解析",
+      "entityId": "easa"
+    },
+    {
+      "name": "RTCA",
+      "url": "https://www.rtca.org/",
+      "status": "公开标准动态待接入；不转载付费标准全文",
+      "entityId": "rtca"
+    },
+    {
+      "name": "EUROCAE",
+      "url": "https://www.eurocae.net/",
+      "status": "公开标准动态待接入；不转载付费标准全文",
+      "entityId": "eurocae"
+    },
+    {
+      "name": "NTSB",
+      "url": "https://www.ntsb.gov/",
+      "status": "调查公告与报告待接入，不能由初步报告推断根因",
+      "entityId": "ntsb"
+    },
+    {
+      "name": "Jeppesen / Lido",
+      "url": "https://www.jeppesen.com/",
+      "status": "数据库产品动态待接入；不提供受限导航数据",
+      "entityId": "jeppesen"
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "checkedAt": "2026-10-05T11:29:40.022Z",
+  "scope": "listing and sample date parsing; no production ingestion or model calls",
+  "results": [
+    {
+      "id": "rss-easa-news",
+      "status": "ok",
+      "finalUrl": "https://www.easa.europa.eu/en/newsroom-and-events/news/feed.xml",
+      "items": 50,
+      "checkedArticles": [
+        {
+          "title": "EASA publishes Easy Access Rules for CS-ETSO Amendment 17",
+          "url": "https://www.easa.europa.eu/newsroom-and-events/news/easa-publishes-easy-access-rules-cs-etso-amendment-17",
+          "date": "Thu, 01 Oct 2026 00:00:00 +0300"
+        },
+        {
+          "title": "EUROCONTROL and EASA launch AVENIR Environmental Catalogue to strengthen environmental transparency in aviation",
+          "url": "https://www.easa.europa.eu/newsroom-and-events/press-releases/eurocontrol-and-easa-launch-avenir-environmental-catalogue-strengthen-environmental-transparency",
+          "date": "Mon, 28 Sep 2026 00:00:00 +0300"
+        },
+        {
+          "title": "New vacancies published: Air Operations Expert, Air Operations Expert - Rotorcraft and Human Factors Expert",
+          "url": "https://www.easa.europa.eu/newsroom-and-events/news/new-vacancies-published-air-operations-expert-air-operations-expert-rotorcraft-and-human-factors",
+          "date": "Tue, 22 Sep 2026 00:00:00 +0300"
+        }
+      ],
+      "elapsedMs": 3611
+    },
+    {
+      "id": "rss-easa-decisions",
+      "status": "ok",
+      "finalUrl": "https://www.easa.europa.eu/en/document-library/agency-decisions/feed.xml",
+      "items": 50,
+      "checkedArticles": [
+        {
+          "title": "ED Decision 2026/009/R",
+          "url": "https://www.easa.europa.eu/document-library/agency-decisions/ed-decision-2026009r",
+          "date": "Fri, 25 Sep 2026 00:00:00 +0300"
+        },
+        {
+          "title": "ED Decision 2026/008/R",
+          "url": "https://www.easa.europa.eu/document-library/agency-decisions/ed-decision-2026008r",
+          "date": "Wed, 15 Jul 2026 00:00:00 +0300"
+        },
+        {
+          "title": "ED Decision 2026/006/R",
+          "url": "https://www.easa.europa.eu/document-library/agency-decisions/ed-decision-2026006r",
+          "date": "Wed, 15 Jul 2026 00:00:00 +0300"
+        }
+      ],
+      "elapsedMs": 150
+    },
+    {
+      "id": "rss-easa-cs",
+      "status": "ok",
+      "finalUrl": "https://www.easa.europa.eu/en/document-library/certification-specifications/feed.xml",
+      "items": 50,
+      "checkedArticles": [
+        {
+          "title": "CS-E Amendment 9",
+          "url": "https://www.easa.europa.eu/document-library/certification-specifications/cs-e-amendment-9",
+          "date": "Fri, 25 Sep 2026 00:00:00 +0300"
+        },
+        {
+          "title": "CS-FSTD – Issue 1",
+          "url": "https://www.easa.europa.eu/document-library/certification-specifications/cs-fstd-issue-1",
+          "date": "Wed, 15 Jul 2026 00:00:00 +0300"
+        },
+        {
+          "title": "CS-26 Issue 5",
+          "url": "https://www.easa.europa.eu/document-library/certification-specifications/cs-26-issue-5",
+          "date": "Wed, 17 Jun 2026 00:00:00 +0300"
+        }
+      ],
+      "elapsedMs": 486
+    },
+    {
+      "id": "rss-easa-amc",
+      "status": "ok",
+      "finalUrl": "https://www.easa.europa.eu/en/document-library/acceptable-means-of-compliance-and-guidance-material/feed.xml",
+      "items": 50,
+      "checkedArticles": [
+        {
+          "title": "AMC &amp; GM to Part-ORO — Issue 2, Amendment 30",
+          "url": "https://www.easa.europa.eu/document-library/acceptable-means-of-compliance-and-guidance-material/amc-gm-part-oro-issue-2-amendment-30",
+          "date": "Wed, 15 Jul 2026 00:00:00 +0300"
+        },
+        {
+          "title": "AMC &amp; GM to Commission Regulation (EU) No 1178-2011 — Issue 1, Amendment 3",
+          "url": "https://www.easa.europa.eu/document-library/acceptable-means-of-compliance-and-guidance-material/amc-gm-commission-regulation-eu-no-1178-2011-issue-1-amendment-3",
+          "date": "Wed, 15 Jul 2026 00:00:00 +0300"
+        },
+        {
+          "title": "AMC &amp; GM to Part-ORA — Issue 1, Amendment 9",
+          "url": "https://www.easa.europa.eu/document-library/acceptable-means-of-compliance-and-guidance-material/amc-gm-part-ora-issue-1-amendment-9",
+          "date": "Wed, 15 Jul 2026 00:00:00 +0300"
+        }
+      ],
+      "elapsedMs": 91
+    },
+    {
+      "id": "rss-easa-npa",
+      "status": "ok",
+      "finalUrl": "https://www.easa.europa.eu/en/document-library/notices-of-proposed-amendment/feed.xml",
+      "items": 50,
+      "checkedArticles": [
+        {
+          "title": "NPA 2026-03",
+          "url": "https://www.easa.europa.eu/document-library/notices-of-proposed-amendment/npa-2026-03",
+          "date": "Mon, 07 Sep 2026 00:00:00 +0300"
+        },
+        {
+          "title": "NPA 2026-02",
+          "url": "https://www.easa.europa.eu/document-library/notices-of-proposed-amendment/npa-2026-02",
+          "date": "Fri, 03 Jul 2026 00:00:00 +0300"
+        },
+        {
+          "title": "NPA 2026-01",
+          "url": "https://www.easa.europa.eu/document-library/notices-of-proposed-amendment/npa-2026-01",
+          "date": "Tue, 28 Apr 2026 00:00:00 +0300"
+        }
+      ],
+      "elapsedMs": 64
+    },
+    {
+      "id": "rss-easa-research",
+      "status": "ok",
+      "finalUrl": "https://www.easa.europa.eu/en/document-library/research-reports/feed.xml",
+      "items": 50,
+      "checkedArticles": [
+        {
+          "title": "FACTS – Toxicity of contaminated aircraft cabin air",
+          "url": "https://www.easa.europa.eu/document-library/research-reports/facts-about-cabin-air-quality-board-large-transport-aircraft",
+          "date": "Thu, 26 Sep 2024 00:00:00 +0300"
+        },
+        {
+          "title": "SABATAIR – Safe Transport of Lithium Batteries by Air",
+          "url": "https://www.easa.europa.eu/document-library/research-reports/lithium-ion-cell-exposure-board-external-fire",
+          "date": "Thu, 26 Sep 2024 00:00:00 +0300"
+        },
+        {
+          "title": "Water behaviour in aviation fuel under cold temperature conditions (WAFCOLT)",
+          "url": "https://www.easa.europa.eu/document-library/research-reports/easa20101",
+          "date": "Thu, 26 Sep 2024 00:00:00 +0300"
+        }
+      ],
+      "elapsedMs": 486
+    },
+    {
+      "id": "rss-easa-publications",
+      "status": "ok",
+      "finalUrl": "https://www.easa.europa.eu/en/document-library/general-publications/feed.xml",
+      "items": 50,
+      "checkedArticles": [
+        {
+          "title": "ReFuelEU Aviation Annual Technical Report 2026",
+          "url": "https://www.easa.europa.eu/document-library/general-publications/refueleu-aviation-annual-technical-report-2026",
+          "date": "Thu, 17 Sep 2026 00:00:00 +0300"
+        },
+        {
+          "title": "EN-ICCA — Report on the state of science and knowledge on atmospheric icing in a climate change context",
+          "url": "https://www.easa.europa.eu/document-library/general-publications/en-icca-report-state-science-and-knowledge-atmospheric-icing-climate-change-context",
+          "date": "Tue, 18 Aug 2026 00:00:00 +0300"
+        },
+        {
+          "title": "Guidance for allowing virtual classroom instruction and distance learning",
+          "url": "https://www.easa.europa.eu/document-library/general-publications/guidance-allowing-virtual-classroom-instruction-and-distance-learning",
+          "date": "Thu, 06 Aug 2026 00:00:00 +0300"
+        }
+      ],
+      "elapsedMs": 104
+    },
+    {
+      "id": "rss-honeywell",
+      "status": "ok",
+      "finalUrl": "https://investor.honeywell.com/rss/news-releases.xml",
+      "items": 10,
+      "checkedArticles": [
+        {
+          "title": "Honeywell Technologies Announces Quarterly Dividend",
+          "url": "https://honeywell.gcs-web.com/news-releases/news-release-details/honeywell-technologies-announces-quarterly-dividend-0",
+          "date": "Fri, 25 Sep 2026 13:03:00 -0400"
+        },
+        {
+          "title": "Honeywell Technologies to Release Third Quarter Financial Results and Hold Its Investor Conference Call on Thursday, October 22",
+          "url": "https://honeywell.gcs-web.com/news-releases/news-release-details/honeywell-technologies-release-third-quarter-financial-results",
+          "date": "Thu, 24 Sep 2026 07:30:00 -0400"
+        },
+        {
+          "title": "Honeywell Technologies Announces Participation at Upcoming Investor Conference",
+          "url": "https://honeywell.gcs-web.com/news-releases/news-release-details/honeywell-technologies-announces-participation-upcoming-0",
+          "date": "Thu, 03 Sep 2026 07:00:00 -0400"
+        }
+      ],
+      "elapsedMs": 7672
+    },
+    {
+      "id": "rss-universal-press",
+      "status": "ok",
+      "finalUrl": "https://universalavionics.com/press-releases/rss.xml",
+      "items": 10,
+      "checkedArticles": [
+        {
+          "title": "Universal Avionics Expands InSight® Flight Deck Reach with Brazilian Certification",
+          "url": "https://universalavionics.com/press-releases/universal-avionics-expands-insight-flight-deck-reach-with-brazilian-certification",
+          "date": "Wed, 12 Aug 2026 19:00:00 GMT"
+        },
+        {
+          "title": "Universal Avionics InSight Display System Selected for Missionized Learjet 35/36 Cockpit Upgrade",
+          "url": "https://universalavionics.com/press-releases/universal-avionics-insight-display-system-selected-for-missionized-learjet-cockpit-upgrade",
+          "date": "Thu, 11 Jun 2026 20:11:32 GMT"
+        },
+        {
+          "title": "Universal Avionics InSight Flight Deck Certified for De Havilland Canada CL-415 Waterbombers",
+          "url": "https://universalavionics.com/press-releases/universal-avionics-insight-flight-deck-certified-for-de-havilland-canada-cl-415-waterbombers",
+          "date": "Wed, 08 Apr 2026 16:00:00 GMT"
+        }
+      ],
+      "elapsedMs": 3696
+    },
+    {
+      "id": "rss-universal-blog",
+      "status": "ok",
+      "finalUrl": "https://universalavionics.com/blog/rss.xml",
+      "items": 10,
+      "checkedArticles": [
+        {
+          "title": "Dealer Spotlight: Avmax Streamlines Global Flight Deck Upgrades",
+          "url": "https://universalavionics.com/blog/dealer-spotlight-avmax-streamlines-global-flight-deck-upgrades",
+          "date": "Mon, 10 Aug 2026 19:04:43 GMT"
+        },
+        {
+          "title": "Chicago Jet Group Soars with InSight Flight Decks on Falcon 900B",
+          "url": "https://universalavionics.com/blog/chicago-jet-group-soars-with-insight-on-falcon-900b",
+          "date": "Thu, 04 Sep 2025 16:00:00 GMT"
+        },
+        {
+          "title": "Trimec Aviation Showcases Expertise with Falcon Jet Avionics Upgrades",
+          "url": "https://universalavionics.com/blog/trimec-aviation-showcases-expertise-with-falcon-jet-avionics-upgrades",
+          "date": "Tue, 19 Aug 2025 16:00:00 GMT"
+        }
+      ],
+      "elapsedMs": 85
+    },
+    {
+      "id": "rss-boeing",
+      "status": "ok",
+      "finalUrl": "https://boeing.mediaroom.com/news-releases-statements?pagetemplate=rss",
+      "items": 5,
+      "checkedArticles": [
+        {
+          "title": "Boeing Secures Order For First Full-Rate Production Grey Wolf Helicopters",
+          "url": "https://boeing.mediaroom.com/news-releases-statements?item=131723",
+          "date": "Thu, 01 Oct 2026 07:00:00 -0400"
+        },
+        {
+          "title": "Ethiopian Airlines Orders Boeing 777 and 777-8 Freighters to Expand Cargo Fleet",
+          "url": "https://boeing.mediaroom.com/2026-09-30-Ethiopian-Airlines-Orders-Boeing-777-and-777-8-Freighters-to-Expand-Cargo-Fleet",
+          "date": "Wed, 30 Sep 2026 16:30:00 -0400"
+        },
+        {
+          "title": "Boeing to Release Third Quarter Results on October 27",
+          "url": "https://boeing.mediaroom.com/2026-09-30-Boeing-to-Release-Third-Quarter-Results-on-October-27",
+          "date": "Wed, 30 Sep 2026 11:00:00 -0400"
+        }
+      ],
+      "elapsedMs": 3534
+    },
+    {
+      "id": "rss-aviation-today",
+      "status": "ok",
+      "finalUrl": "https://www.aviationtoday.com/feed/",
+      "items": 10,
+      "checkedArticles": [
+        {
+          "title": "Marine One Near Miss Renews Questions About Washington Airspace Safety",
+          "url": "https://www.aviationtoday.com/2026/08/20/marine-one-near-miss-renews-questions-about-washington-airspace-safety/",
+          "date": "Thu, 20 Aug 2026 05:46:07 +0000"
+        },
+        {
+          "title": "Game On: Can Gamers Help Close America’s Air Traffic Control Gap?",
+          "url": "https://www.aviationtoday.com/2026/08/20/game-on-can-gamers-help-close-americas-air-traffic-control-gap/",
+          "date": "Thu, 20 Aug 2026 05:36:31 +0000"
+        },
+        {
+          "title": "Army To Test And Evaluate Elroy Air’s Hybrid-Electric VTOL Under New Contract",
+          "url": "https://www.aviationtoday.com/2026/08/20/army-to-test-and-evaluate-elroy-airs-hybrid-electric-vtol-under-new-contract/",
+          "date": "Thu, 20 Aug 2026 04:27:39 +0000"
+        }
+      ],
+      "elapsedMs": 3379
+    },
+    {
+      "id": "web-eurocontrol",
+      "status": "ok",
+      "finalUrl": "https://www.eurocontrol.int/newsroom",
+      "items": 13,
+      "checkedArticles": [
+        {
+          "title": "iNM update: EUROCONTROL successfully completes another programme Wave",
+          "url": "https://www.eurocontrol.int/news/data-published-product-eurocontrol-completes-digital-chain-aeronautical-information-inm-wave",
+          "date": "2026-09-15T12:00:00.000Z"
+        },
+        {
+          "title": "EUROCONTROL and aviation partners reinforce PENS continuity and prepare the next generation of European ATM connectivity",
+          "url": "https://www.eurocontrol.int/news/eurocontrol-and-aviation-partners-reinforce-pens-continuity-and-prepare-next-generation",
+          "date": "2026-09-09T12:00:00.000Z"
+        },
+        {
+          "title": "Protecting the backbone of aviation: EASA and EUROCONTROL host workshop on Europe’s GNSS interference Action Plan",
+          "url": "https://www.eurocontrol.int/news/protecting-backbone-aviation-easa-and-eurocontrol-host-workshop-europes-gnss-interference",
+          "date": "2026-07-09T12:00:00.000Z"
+        }
+      ],
+      "elapsedMs": 3807
+    },
+    {
+      "id": "web-faa",
+      "status": "ok",
+      "finalUrl": "https://www.faa.gov/newsroom",
+      "items": 4,
+      "checkedArticles": [
+        {
+          "title": "FAA Breaks All-Time Record for Air Traffic Controller Trainee Hiring",
+          "url": "https://www.faa.gov/newsroom/faa-breaks-all-time-record-air-traffic-controller-trainee-hiring",
+          "date": "2026-10-01T12:00:00.000Z"
+        },
+        {
+          "title": "Trump’s Transportation Secretary Sean P. Duffy, Modern Skies Coalition Applaud Senator Schmitt’s $30 Billion Modern Skies Act",
+          "url": "https://www.faa.gov/newsroom/trumps-transportation-secretary-sean-p-duffy-modern-skies-coalition-applaud-senator",
+          "date": "2026-09-29T12:00:00.000Z"
+        },
+        {
+          "title": "FAA Proposes $87,000 Fine Against Comfylife, LLC for Alleged Violation of Hazardous Materials Regulations",
+          "url": "https://www.faa.gov/newsroom/faa-proposes-87000-fine-against-comfylife-llc-alleged-violation-hazardous-materials",
+          "date": "2026-09-29T12:00:00.000Z"
+        }
+      ],
+      "elapsedMs": 3551
+    },
+    {
+      "id": "json-federal-register-fms",
+      "status": "ok",
+      "finalUrl": "https://www.federalregister.gov/api/v1/documents.json?conditions[term]=flight%20management%20system&per_page=20&order=newest",
+      "items": 20,
+      "checkedArticles": [
+        {
+          "title": "Overpressure Blast Effects Analysis Burden Reducing Clarification",
+          "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20392/overpressure-blast-effects-analysis-burden-reducing-clarification",
+          "date": "2026-10-05"
+        },
+        {
+          "title": "Lightning Hazard Mitigation Burden-Reducing Exception",
+          "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20391/lightning-hazard-mitigation-burden-reducing-exception",
+          "date": "2026-10-05"
+        },
+        {
+          "title": "Streamlining Flight Safety Analysis Methodology Means of Compliance",
+          "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20388/streamlining-flight-safety-analysis-methodology-means-of-compliance",
+          "date": "2026-10-05"
+        }
+      ],
+      "elapsedMs": 3575
+    }
+  ]
+}

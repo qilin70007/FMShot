@@ -1,0 +1,357 @@
+{
+  "$comment": "15个公开采集源；2026-10-05核验入口/解析。宽范围源还需FMS预筛；并非全部条目都属于FMS。已有信源不会被seed覆盖。",
+  "sources": [
+    {
+      "id": "rss-easa-news",
+      "name": "EASA · 新闻",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.easa.europa.eu/en/newsroom-and-events/news/feed.xml",
+        "_aihot": {
+          "initialBackfillLimit": 4
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "easa",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "rss-easa-decisions",
+      "name": "EASA · 机构决定",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.easa.europa.eu/en/document-library/agency-decisions/feed.xml",
+        "_aihot": {
+          "initialBackfillLimit": 4
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "easa",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "rss-easa-cs",
+      "name": "EASA · 审定规范",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.easa.europa.eu/en/document-library/certification-specifications/feed.xml",
+        "_aihot": {
+          "initialBackfillLimit": 4
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "easa",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "rss-easa-amc",
+      "name": "EASA · AMC 与 GM",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.easa.europa.eu/en/document-library/acceptable-means-of-compliance-and-guidance-material/feed.xml",
+        "_aihot": {
+          "initialBackfillLimit": 4
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "easa",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "rss-easa-npa",
+      "name": "EASA · 拟议修订",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.easa.europa.eu/en/document-library/notices-of-proposed-amendment/feed.xml",
+        "_aihot": {
+          "initialBackfillLimit": 4
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "easa",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "rss-easa-research",
+      "name": "EASA · 研究报告",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.easa.europa.eu/en/document-library/research-reports/feed.xml",
+        "_aihot": {
+          "initialBackfillLimit": 4
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "easa",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "rss-easa-publications",
+      "name": "EASA · 综合出版物",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.easa.europa.eu/en/document-library/general-publications/feed.xml",
+        "_aihot": {
+          "initialBackfillLimit": 4
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "easa",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "rss-honeywell",
+      "name": "Honeywell · 官方公告",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://investor.honeywell.com/rss/news-releases.xml",
+        "_aihot": {
+          "initialBackfillLimit": 4
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "honeywell",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "rss-universal-press",
+      "name": "Universal Avionics · 产品公告",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://universalavionics.com/press-releases/rss.xml",
+        "_aihot": {
+          "initialBackfillLimit": 4
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "universal-avionics",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "rss-universal-blog",
+      "name": "Universal Avionics · 技术博客",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://universalavionics.com/blog/rss.xml",
+        "_aihot": {
+          "initialBackfillLimit": 4
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "universal-avionics",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "rss-boeing",
+      "name": "Boeing · 新闻与声明",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://boeing.mediaroom.com/news-releases-statements?pagetemplate=rss",
+        "_aihot": {
+          "initialBackfillLimit": 4
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "boeing",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "rss-aviation-today",
+      "name": "Aviation Today · 航电资讯",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.aviationtoday.com/feed/",
+        "_aihot": {
+          "initialBackfillLimit": 4
+        }
+      },
+      "tier": "T2",
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "专业媒体"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "web-eurocontrol",
+      "name": "EUROCONTROL · 新闻",
+      "kind": "web_list",
+      "config": {
+        "url": "https://www.eurocontrol.int/newsroom",
+        "parseMode": "html",
+        "itemSelector": ".node--news, .ec-c--newsroom-card",
+        "linkSelector": "a[href^=\"/news/\"]",
+        "titleSelector": ".field--promo-title",
+        "publishedAtSelector": "time",
+        "allowUrlPrefixes": [
+          "https://www.eurocontrol.int/news/"
+        ],
+        "detail": {
+          "maxFetches": 4,
+          "publishedAtSelector": "meta[property=\"article:published_time\"], time",
+          "titleSelector": "h1"
+        },
+        "_aihot": {
+          "initialBackfillLimit": 4
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "eurocontrol",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "web-faa",
+      "name": "FAA · 官方新闻",
+      "kind": "web_list",
+      "config": {
+        "url": "https://www.faa.gov/newsroom",
+        "parseMode": "html",
+        "itemSelector": ".view-display-id-block_news .views-row",
+        "linkSelector": ".views-field-title a",
+        "titleSelector": ".views-field-title a",
+        "publishedAtSelector": "time",
+        "allowUrlPrefixes": [
+          "https://www.faa.gov/newsroom/"
+        ],
+        "detail": {
+          "maxFetches": 4,
+          "publishedAtSelector": "meta[property=\"article:published_time\"], time",
+          "titleSelector": "h1"
+        },
+        "_aihot": {
+          "initialBackfillLimit": 4
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "faa",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "json-federal-register-fms",
+      "name": "Federal Register · FMS 文件",
+      "kind": "json_list",
+      "config": {
+        "url": "https://www.federalregister.gov/api/v1/documents.json?conditions[term]=flight%20management%20system&per_page=20&order=newest",
+        "itemsPath": "results",
+        "titlePaths": [
+          "title"
+        ],
+        "summaryPaths": [
+          "abstract",
+          "excerpts"
+        ],
+        "publishedAtPath": "publication_date",
+        "externalIdPath": "document_number",
+        "urlTemplate": "{raw:html_url}",
+        "_aihot": {
+          "initialBackfillLimit": 4
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    }
+  ]
+}
