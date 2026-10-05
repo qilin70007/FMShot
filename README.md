@@ -1,5 +1,9 @@
 # FMShot · 飞行管理系统行业热点
 
+**轻量版已上线： [打开 FMShot](https://fmshot.qlxiao.chatgpt.site)**（通过 ChatGPT Work Sites 托管，当前仅所有者可访问）。直接打开即可浏览，不需要部署服务器、配置数据库或填写模型 API Key。支持公开信源动态、分类、搜索、FMS 相关筛选和浏览器本地收藏。详见 [轻量版上线说明](docs/work-lite.md)。
+
+下面保留完整版的功能和自托管说明，供后续需要模型评分、日报等能力时使用。
+
 面向 FMS 研制、验证、适航与运行支持的行业热点站。基于 [AIHOT](https://github.com/KKKKhazix/AIHOT) 的 MIT 开源框架定制，保留采集、预筛、独立双评分、事件归并、热点榜、日报/周报/月报、RSS、公开 API、MCP 和管理后台。
 
 ## 关注范围
