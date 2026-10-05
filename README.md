@@ -43,7 +43,11 @@ LLM_MODEL=你账户可用的模型名称
 docker compose up -d --build
 ```
 
-网站：`http://服务器地址:3000`；后台：`/admin`。管理员密码由初始化脚本生成。在后台先检查信源和预算，再把 `.env` 的 `COLLECT_ENABLED`、`MODEL_CALLS_ENABLED` 改为 `true` 并重启 API/worker。默认关闭外部采集和模型调用，未配置密钥也能启动空站检查界面。
+网站：`http://服务器地址:3000`；后台：`/admin`。管理员密码由初始化脚本生成。在后台先检查信源和预算，再把 `.env` 的 `COLLECT_ENABLED`、`MODEL_CALLS_ENABLED` 改为 `true` 并重启 API/worker。默认关闭外部采集和模型调用，未配置密钥也能启动空站检查界面。修改 `.env` 后，应重新创建容器以加载新环境变量：
+
+```bash
+docker compose up -d --force-recreate api worker
+```
 
 日报默认北京时间每天 08:00，周报周一 10:00，月报每月 1 日 10:30；由常驻 worker 调度。不是 GitHub Actions 定时抓取，也不会自动发送邮件。时间在 `site/site.ts` 修改。
 

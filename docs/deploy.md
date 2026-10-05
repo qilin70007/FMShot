@@ -26,7 +26,7 @@ RSS、分享链接、站点地图和 Agent Markdown 中的绝对链接都使用�
 docker compose up -d --build
 ```
 
-启动后打开 `http://服务器地址:3000`，后台在 `/admin`，用管理员密码登录。第一次启动会导入示范信源，一两分钟后开始出现内容；第一次导入的一百多条资料大约半小时处理完（每条都要预筛、评分、结构化、写标题摘要，再归组）。
+启动后打开 `http://服务器地址:3000`，后台在 `/admin`，用管理员密码登录。第一次启动导入 FMShot 的公开信源，但默认 `COLLECT_ENABLED=false` 和 `MODEL_CALLS_ENABLED=false`，因此先呈现空站。核对模型配置、信源和预算后，将两个开关设为 `true`，再运行 `docker compose up -d --force-recreate api worker` 加载新环境变量。资料需经过预筛、评分、结构化、摘要和归组，出现时间取决于实际信源和模型处理速度。
 
 `docker compose` 会起五个容器：`db`（PostgreSQL 17）、`setup`（每次启动先跑数据库迁移和种子数据，然后退出）、`api`、`worker`（抓取、模型处理、定时任务）、`web`（网页）。`web` 只接收网站地址、API 地址等网页配置，通过 HTTP 读取 API；数据库、模型和管理员密钥，以及数据卷，只交给后端容器。
 
